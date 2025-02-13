@@ -37,4 +37,19 @@ div{
         text-align: center;
         color: rgb(36, 5, 5);
         font-size: 30px;}
+
+        /* flexbox to hold images inside rightbox */
    
+        .flexcontainer {
+	display: flex;
+	flex-wrap: wrap;
+    /* to make our immages rearrange if width decreases */
+}
+
+.child {
+	flex: 40%;
+	margin: 10px;
+	font-family: Verdana, serif;
+	font-size: 30px;
+}
+
